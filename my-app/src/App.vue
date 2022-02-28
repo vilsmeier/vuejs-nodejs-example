@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-<!--    <Dashboard v-if="settings == true"/>-->
     <router-view/>
   </div>
 </template>
@@ -9,13 +8,9 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
-// import Dashboard from './components/Dashboard.vue'
-
 export default {
   name: 'App',
-  components: {
-    // Dashboard
-  },
+  components: {},
   data() {
       return {
           settings: false
